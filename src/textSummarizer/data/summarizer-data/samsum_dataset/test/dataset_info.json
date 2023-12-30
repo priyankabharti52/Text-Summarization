@@ -1,0 +1,46 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 16406,
+  "description": "",
+  "download_checksums": {
+    "/Users/priyankabharti/Documents/Projects/Text-Summarization/src/textSummarizer/data/summarizer-data/samsum-test.csv": {
+      "num_bytes": 16638,
+      "checksum": null
+    }
+  },
+  "download_size": 16638,
+  "features": {
+    "13810034": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Ali: I think I left my wallet at your place yesterday. Could you check? \r\nMohammad: Give me a sec, I'll have a look around my room.\r\nAli: OK.\r\nMohammad: Found it!\r\nAli: Phew, I don't know what I'd do if it wasn't there. Can you bring it to uni tomorrow?\r\nMohammad: Sure thing.": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Ali left his wallet at Mohammad's place. Mohammad'll bring it to uni tomorrow.": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 33044,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 16406,
+      "num_examples": 25,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

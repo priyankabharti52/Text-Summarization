@@ -1,0 +1,46 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 46656,
+  "description": "",
+  "download_checksums": {
+    "/Users/priyankabharti/Documents/Projects/Text-Summarization/src/textSummarizer/data/summarizer-data/samsum-train.csv": {
+      "num_bytes": 46291,
+      "checksum": null
+    }
+  },
+  "download_size": 46291,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "dialogue": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "summary": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 92947,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 46656,
+      "num_examples": 70,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
